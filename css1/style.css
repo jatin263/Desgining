@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.horiCenter{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    margin: 0px 0px;
+    border-color: black;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .flex-container > a div {
+    border: 2px solid black;
+    background-color: #f1f1f1;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    padding : 5px;
+  }
+
+  .flex-container > a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .flex-container > a:hover div{
+    background-color: black;
+    color: #f1f1f1;
+    transition-duration: 1000ms;
+  }
+
+
+  .flex-container > a div p{
+    font-size: 15px;
+    margin: 0px 0px;
+    line-height: 25px;
+  }
