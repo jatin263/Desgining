@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIL CSO's Reporting Portal</title>
+    <link rel="stylesheet" href="css1/style.css">
+</head>
+<body>
+    <div class="horiCenter">
+        <img src="css1/rilLogo.png" alt="" width="90%" style="max-width:500px ;">
+    </div>
+    <div style="display: flex; justify-content: space-between;">
+        <h4>Jatin Kumawat</h4>
+        <h4>Date: 31/12/2022</h4>
+    </div>
+    <hr>
+    <h3>Today Report</h3>
+    <div class="horiCenter"><textarea id="data" name="data" rows="30" cols="50" readonly>🟢🟢🟢
+Daily Secondary Report-
+Date :- 31-12-2022
+Name :- Dulichnd Chand Sharma
+Distributor Name :- D.K. Industries
+Town :- Sikar
+Beat Name :- fff
+=======================
+Total TC:10
+Total PC:10
+Total PC%:100%
+=======================
+PC Noodles:20
+PC Confy:2
+PC Deo:2
+PC Coconut Oil:1
+PC Namkeen:2
+PC Cleaners:2
+PC Fresheners:2
+PC Others:2
+=======================
+Sales Noodles:2
+Sales Confy:2
+Sales Deo:2
+Sales Coconut Oil:2
+Sales Namkeen:2
+Sales Cleaners:2
+Sales Fresheners:2
+Sales Others:2
+Sales Total:16</textarea></div><br><br><div class="horiCenter"><button onclick="myFunction()">Copy Report</button></div><script>
+        function myFunction() {
+          var copyText = document.getElementById("data");
+          copyText.select();
+          copyText.setSelectionRange(0, 99999)
+          document.execCommand("copy");
+          alert("Copied the text: " + copyText.value);
+        }
+        </script>
+</body>
+</html>

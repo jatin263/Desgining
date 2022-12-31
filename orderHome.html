@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIL CSO's Reporting Portal</title>
+    <link rel="stylesheet" href="css1/style.css">
+</head>
+<body onload="onc()">
+    <div class="horiCenter" >
+        <img src="css1/rilLogo.png" alt="" width="90%" style="max-width:500px ;">
+    </div>
+    <div style="display: flex; justify-content: space-between;" >
+        <h4>Jatin Kumawat</h4>
+        <h4>Date: 31/12/2022</h4>
+    </div>
+    <hr>
+    <div class="flex-container" id="proID">
+    </div>
+
+    <script>
+        function onc(){
+            var arr =
+    
+    [["CONFECTIONARY","JoyL. Kaccha Aam Jar - Rs.160"],["CONFECTIONARY","JoyL. Mango Masti Jar - Rs.160"],["CONFECTIONARY","JoyL. Orange Fun Jar - Rs.160"],["CONFECTIONARY","JoyL. Coffeetime Jar - Rs.160"],["CONFECTIONARY","JoyL. Assrtd Rw Mng, Mng, Orng Jar - Rs.415"],["CONFECTIONARY","JoyL. Coffeetime Jar - Rs.415"],["CONFECTIONARY","JoyL. Kaccha Aam  Pp - Rs.100"],["CONFECTIONARY","JoyL. Mango Masti  Pp - Rs.100"],["CONFECTIONARY","JoyL. Orange Fun Pp - Rs.100"],["CONFECTIONARY","JoyL. Coffeetime Pp - Rs.100"],["CONFECTIONARY","JoyL. Spice Fld Masala Kairi  Pp - Rs.100"],["CONFECTIONARY","JoyL. Spice Fld  Masala Kairi Jar - Rs.157"],["CONFECTIONARY","JoyL. Spice Fld  Masala Kairi  Jar - Rs.415"],["CONFECTIONARY","Coconut Bite Jar - Rs.245"],["CONFECTIONARY","Coconut Bite Jar - Rs.590"],["CONFECTIONARY","Coconut Bite Jar - Rs.1150"],["CONFECTIONARY","Coconut Bite Pouch 100Pc - Rs.100"],["CONFECTIONARY","Coconut Bite Stick Pack 30Pc - Rs.300"],["CONFECTIONARY","Chocolate Eclair Jar - Rs.245"],["CONFECTIONARY","Chocolate Eclair Pouch 100Pc - Rs.100"],["CONFECTIONARY","Butter Toffee Jar - Rs.245"],["CONFECTIONARY","Butter Toffee Jar - Rs.590"],["CONFECTIONARY","Butter Toffee Jar - Rs.1150"],["CONFECTIONARY","Butter Toffee Pouch 100Pc - Rs.100"],["CONFECTIONARY","Creamy Lacto Candy Jar - Rs.150"],["CONFECTIONARY","Creamy Lacto Candy Pouch 100Pc - Rs.100"],["CHOCOS","Chocos 26G Hulk - Rs.10"],["CHOCOS","Chocos 26G Cap America - Rs.10"],["NOODLES","Masala Noodles 60 G - Rs.10"],["COCONUT OIL","Coconut Oil 100 Ml Pet - Rs.38"],["CLEANERS","Scrubz Dwlqd Lemon 1P1 500Ml  - Rs.135"],["CLEANERS","Scrubz Dwlqd Lime 1P1 500 Ml  - Rs.135"],["CLEANERS","Expelz Tlt Clnr Reg 1+1 500 Ml - Rs.109"],["CLEANERS","Expelz Tlt Clnr Reg 200 Ml �  - Rs.37"],["CLEANERS","Mopz Fc Lime 1 Pls 1 500 Ml  - Rs.109"],["CLEANERS","Mopz Fc Floral 1 Pls 1 500Ml  - Rs.109"],["CLEANERS","Shinz Glass Clnr 1+1 550 Ml  - Rs.99"],["Napthalene balls","Napthaleneballs 100 G Pch - Rs.59"],["CLEANING IMPLEMENTS","Kitchen Wiper Pp - Rs.69"],["CLEANING IMPLEMENTS","Round Dori Mop - Rs.249"],["CLEANING IMPLEMENTS","Floor Wiper With Handle - Rs.155"],["CLEANING IMPLEMENTS","Plastic Sngl Hockey Toilet Brush - Rs.109"],["CLEANING IMPLEMENTS","Plsticdoublehockeytoiletbrush - Rs.139"],["CLEANING IMPLEMENTS","Plastic Dustpan - Rs.60"],["BROOM","Grass Broom 1U - Rs.150"],["BROOM","Dust Free Broom Wth Pl Handl - Rs.199"],["CLEANING IMPLEMENTS","Floor Brush Hard - Rs.89"],["CLEANING IMPLEMENTS","Cloth Brush 1Pc Pp - Rs.45"],["CLEANING IMPLEMENTS","Plastic Kharata - Rs.99"],["FRESHENER BLOCKS","Jasmin 1+1 50 G Cbd�  - Rs.65"],["FRESHENER BLOCKS","Lavender 1+1 50 G Cbd - Rs.65"],["FRESHENER BLOCKS","Orchid 1+1 50 G Cbd�  - Rs.65"],["FRESHENER BLOCKS","Rose 1+1 50 G Cbd���  - Rs.65"],["FRESHENER BLOCKS","Jasmin 1+1 75 G Cbd�  - Rs.85"],["FRESHENER BLOCKS","Lavender 1+1 75 G Cbd - Rs.85"],["DEO","Meister Deo TWIST 100g (150ml) - Rs.99"],["DEO","Meister Deo BOOGIE 100g (150ml) - Rs.99"],["DEO","Meister Deo BALLET 100g (150ml) - Rs.99"],["DEO","Meister Deo JAZZ 100g (150ml) - Rs.99"],["DEO","Meister Deo TANGO 100g (150ml) - Rs.99"],["DEO","Jive Deo SPIRITED 100g (150ml) - Rs.99"],["DEO","Jive Deo ACTIVE 100g (150ml) - Rs.99"],["DEO","Jive Deo DASHING 100g (150ml) - Rs.99"],["DEO","Jive Deo CHEERFUL 100g (150ml) - Rs.99"],["DEO","Jive Deo PLAYFULL 100g (150ml) - Rs.99"],["DEO","Meister Deo Twist 27G 40Ml Can - Rs.49"],["DEO","Mstr Deo Deo Bg 27G 40Ml Can - Rs.49"],["DEO","Mstr Deo Deo Bllt 27G 40Ml Can - Rs.49"],["DEO","Mstr Deo Deo Jzz 27G 40 Ml Can - Rs.49"],["DEO","Mstr Deo Deo Tng 27G 40 Ml Can - Rs.49"],["COCONUT OIL","COCONUT OIL 50 ml  - Rs.15"],["COCONUT OIL","COCONUT Oil 100 Ml Pet - Rs.30"],["COCONUT OIL","COCONUT OIL 175 ml  - Rs.50"],["FRESHENER BLOCKS","Air Freshnr Magical Haze 10G - Rs.70"],["FRESHENER BLOCKS","Air Freshnr Twlight Gardn10G - Rs.70"],["FACIAL TISSUES","Facial Tissue 100Pulls Tw Pack - Rs.130"],["ALUMINUM FOIL","Aluminum Foil 9 m CBD - Rs.150"]];
+            var cl='';
+            var oo = '';
+            for(var i=0;i<arr.length;i++){
+                if(arr[i][0]!=""){
+                    if (cl != arr[i][0]){
+                        oo=oo+'<h3>'+arr[i][0]+'</h3>';
+                        cl=arr[i][0];
+                    }
+                    oo=oo+'<div class="flex-item"><p style="height:50px;"><img src="https://picsum.photos/200" width="90"/></p><p style="height:50px;""><strong>'+arr[i][1]+'</strong></p></div>';
+                }
+            }
+            document.getElementById("proID").innerHTML=oo;
+            document.getElementById("amountt").value = 0;
+        }
+        function calFun(){
+            var v = document.getElementById("quantt").value;
+            // console.log(v);
+            var f = 0;
+            var ratee = 
+    
+    [["JoyL. Kaccha Aam Jar - Rs.160",130.97],["JoyL. Mango Masti Jar - Rs.160",125.53],["JoyL. Orange Fun Jar - Rs.160",125.53],["JoyL. Coffeetime Jar - Rs.160",99.66],["JoyL. Assrtd Rw Mng, Mng, Orng Jar - Rs.415",324.11],["JoyL. Coffeetime Jar - Rs.415",258.47],["JoyL. Kaccha Aam  Pp - Rs.100",76.08],["JoyL. Mango Masti  Pp - Rs.100",76.08],["JoyL. Orange Fun Pp - Rs.100",76.08],["JoyL. Coffeetime Pp - Rs.100",62.29],["JoyL. Spice Fld Masala Kairi  Pp - Rs.100",73.29],["JoyL. Spice Fld  Masala Kairi Jar - Rs.157",123.71],["JoyL. Spice Fld  Masala Kairi  Jar - Rs.415",311.17],["Coconut Bite Jar - Rs.245",191.99],["Coconut Bite Jar - Rs.590",462.33],["Coconut Bite Jar - Rs.1150",901.15],["Coconut Bite Pouch 100Pc - Rs.100",78.36],["Coconut Bite Stick Pack 30Pc - Rs.300",235.09],["Chocolate Eclair Jar - Rs.245",191.99],["Chocolate Eclair Pouch 100Pc - Rs.100",78.37],["Butter Toffee Jar - Rs.245",191.99],["Butter Toffee Jar - Rs.590",462.33],["Butter Toffee Jar - Rs.1150",901.15],["Butter Toffee Pouch 100Pc - Rs.100",78.36],["Creamy Lacto Candy Jar - Rs.150",117.54],["Creamy Lacto Candy Pouch 100Pc - Rs.100",78.36],["Chocos 26G Hulk - Rs.10",7.45],["Chocos 26G Cap America - Rs.10",7.45],["Masala Noodles 60 G - Rs.10",8.63],["Coconut Oil 100 Ml Pet - Rs.38",32.49],["Scrubz Dwlqd Lemon 1P1 500Ml  - Rs.135",111.56],["Scrubz Dwlqd Lime 1P1 500 Ml  - Rs.135",111.56],["Expelz Tlt Clnr Reg 1+1 500 Ml - Rs.109",71.82],["Expelz Tlt Clnr Reg 200 Ml �  - Rs.37",24.75],["Mopz Fc Lime 1 Pls 1 500 Ml  - Rs.109",77.54],["Mopz Fc Floral 1 Pls 1 500Ml  - Rs.109",77.54],["Shinz Glass Clnr 1+1 550 Ml  - Rs.99",88.35],["Napthaleneballs 100 G Pch - Rs.59",25.92],["Kitchen Wiper Pp - Rs.69",31.18],["Round Dori Mop - Rs.249",127.05],["Floor Wiper With Handle - Rs.155",102.68],["Plastic Sngl Hockey Toilet Brush - Rs.109",56.15],["Plsticdoublehockeytoiletbrush - Rs.139",71.59],["Plastic Dustpan - Rs.60",36.43],["Grass Broom 1U - Rs.150",73.37],["Dust Free Broom Wth Pl Handl - Rs.199",121.66],["Floor Brush Hard - Rs.89",49.20],["Cloth Brush 1Pc Pp - Rs.45",23.18],["Plastic Kharata - Rs.99",60.35],["Jasmin 1+1 50 G Cbd�  - Rs.65",36.81],["Lavender 1+1 50 G Cbd - Rs.65",36.81],["Orchid 1+1 50 G Cbd�  - Rs.65",36.81],["Rose 1+1 50 G Cbd���  - Rs.65",36.81],["Jasmin 1+1 75 G Cbd�  - Rs.85",49.28],["Lavender 1+1 75 G Cbd - Rs.85",49.28],["Meister Deo TWIST 100g (150ml) - Rs.99",73.98],["Meister Deo BOOGIE 100g (150ml) - Rs.99",73.98],["Meister Deo BALLET 100g (150ml) - Rs.99",73.98],["Meister Deo JAZZ 100g (150ml) - Rs.99",73.98],["Meister Deo TANGO 100g (150ml) - Rs.99",73.98],["Jive Deo SPIRITED 100g (150ml) - Rs.99",73.98],["Jive Deo ACTIVE 100g (150ml) - Rs.99",73.98],["Jive Deo DASHING 100g (150ml) - Rs.99",73.98],["Jive Deo CHEERFUL 100g (150ml) - Rs.99",73.98],["Jive Deo PLAYFULL 100g (150ml) - Rs.99",73.98],["Meister Deo Twist 27G 40Ml Can - Rs.49",36.61],["Mstr Deo Deo Bg 27G 40Ml Can - Rs.49",36.61],["Mstr Deo Deo Bllt 27G 40Ml Can - Rs.49",36.61],["Mstr Deo Deo Jzz 27G 40 Ml Can - Rs.49",36.61],["Mstr Deo Deo Tng 27G 40 Ml Can - Rs.49",36.61],["COCONUT OIL 50 ml  - Rs.15",13.26],["COCONUT Oil 100 Ml Pet - Rs.30",26.55],["COCONUT OIL 175 ml  - Rs.50",44.23],["Air Freshnr Magical Haze 10G - Rs.70",35.49],["Air Freshnr Twlight Gardn10G - Rs.70",35.49],["Facial Tissue 100Pulls Tw Pack - Rs.130",66.09],["Aluminum Foil 9 m CBD - Rs.150",73.90]];
+            var pr = document.getElementById("name_pro").value;
+            // console.log(pr);
+            for(var i=0;i<ratee.length;i++){
+                // console.log(ratee[i][1]);
+                if(ratee[i][0]==pr){
+                    // console.log(ratee[i][0]);
+                   f=v*ratee[i][1];
+                }
+            }
+            // console.log(Math.round(f));
+            document.getElementById("amountt").value = f.toFixed(2);
+        }
+    </script>
