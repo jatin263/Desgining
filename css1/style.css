@@ -96,8 +96,15 @@ hr{
 
   .flex-item > figure{
     display: none;
+    margin-bottom: 0px;
   }
 
   .flex-item:hover figure{
     display: block;
+  }
+
+  .pricePrint{
+    margin: 0px;
+    display: none;
+    text-align: center;
   }
