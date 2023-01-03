@@ -32,7 +32,7 @@
                         oo=oo+'<h3>'+arr[i][0]+'</h3>';
                         cl=arr[i][0];
                     }
-                    oo=oo+'<div class="flex-item"><p style="height:50px;"><img src="https://picsum.photos/200" width="90"/></p><p style="height:50px;""><strong>'+arr[i][1]+'</strong></p></div>';
+                    oo=oo+'<div class="flex-item"><div class="productDiv"><p style="height:90px;"><img src="https://picsum.photos/200" width="90"/></p><p style="font-size:3vw;text-align:center;padding:1.2vw;"><strong>'+arr[i][1]+'</strong></p><input class="prodIn" type="number" name="quant[]" /></div><figure><img src="https://picsum.photos/200" alt="Trulli" style="width:80vw;height:20vh;"><figcaption><strong>'+arr[i][1]+'</strong></figcaption></figure></div>';
                 }
             }
             document.getElementById("proID").innerHTML=oo;
